@@ -1,0 +1,95 @@
+.cover-img {
+  width: 100%;
+}
+h4 {
+  color: white;
+  font-size: 45px;
+}
+h2 {
+  font-size: 10vw;
+  position: absolute;
+  bottom: 20vw;
+  left: 5vw;
+  background: -webkit-linear-gradient(#ee0000, #a1df05);
+  filter: drop-shadow(-1px 2px 93px #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Poppins", sans-serif;
+  animation: 1.2s right-to-left forwards;
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+
+@keyframes right-to-left {
+  from {
+    transform: translateX(-100vw);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.main-img {
+  position: relative;
+  text-align: center;
+}
+.vote-item {
+  font-size: 1vw;
+  position: absolute;
+  bottom: 16vw;
+  left: 6vw;
+  background: rgba(201, 248, 201, 0.2);
+  padding: 0.5vw;
+  border-radius: 0.5vw;
+  width: 7vw;
+  color: white;
+  font-weight: 800;
+
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  animation: 1.2s right-to-left forwards;
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.tagline{
+  font-size: 1vw;
+  position: absolute;
+  bottom: 18vw;
+  left: 6vw;
+  
+  color: white;
+  font-weight: 800;
+
+  justify-content: flex-start;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  font-family: "Poppins", sans-serif;
+  animation: 1.2s right-to-left forwards;
+  font-weight: 800;
+  letter-spacing: -0.005em;
+  font-family: "SF Pro Display", "SF Pro Icons", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+}
+.poster-img {
+  left: 1vw;
+  width: 30vw;
+  
+}
+
+.lang {
+  color: white;
+  background-color: rgb(61, 61, 61);
+ 
+}
+ListGroup{
+  width: 100% ;
+}
+span{
+  font-weight: 600;
+}

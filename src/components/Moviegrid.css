@@ -1,0 +1,16 @@
+.item-tittle{
+    height: 90px;
+   margin-top: 1vw;
+    font-weight: 600;
+    color: black;
+    overflow: hidden;
+}
+.item-image{
+    width: 100%;
+    height: auto;
+    transition: transform .3s;
+}
+.item-image:hover{
+    transform: scale(1.5)
+}
+
